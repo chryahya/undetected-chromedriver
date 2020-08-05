@@ -56,7 +56,7 @@ import undetected_chromedriver as uc
 uc.TARGET_VERSION = 78    
 
 # or specify your own chromedriver binary to patch
-undetected_chromedriver.install(
+uc.install(
     executable_path='c:/users/user1/chromedriver.exe',
 )
 from selenium.webdriver import Chrome, ChromeOptions
